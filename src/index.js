@@ -1,3 +1,4 @@
 module.exports = function warmup(temperature) {
-  // your implementation here
+  let fahrengeit = 9/5*temperature + 32;
+  return fahrengeit;
 };
